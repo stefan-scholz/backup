@@ -1,0 +1,27 @@
+# macOS Protected and Sensitive Data
+/Users/*/Library/Mail
+/Users/*/Library/Messages
+/Users/*/Library/Safari
+/Users/*/Library/Containers
+/Users/*/Library/Cookies
+/Users/*/Library/Mobile Documents
+/Users/*/Pictures/Photos Library.photoslibrary
+/Users/*/Library/Caches
+/Users/*/Downloads
+
+# User Applications (Apps are usually easily re-downloaded)
+/Users/*/Applications
+
+# Huge System Caches and Local Device Backups
+/Users/*/Library/Application Support/MobileSync
+/Users/*/Library/Caches
+/Users/*/Library/Logs
+/Users/*/Library/Mail
+/Users/*/Library/Messages
+/Users/*/Library/Safari
+/Users/*/Library/Cookies
+/Users/*/.Trash
+
+# Docker and Virtual Machines
+/Users/*/Library/Containers/com.docker.docker/Data/vms/*/data/Docker.raw
+/Users/*/Library/Application Support/Claude/vm_bundles/claudevm.bundle/rootfs.img
